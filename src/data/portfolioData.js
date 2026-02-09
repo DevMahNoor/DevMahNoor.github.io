@@ -1,0 +1,195 @@
+import {
+  FaPhp,
+  FaReact,
+  FaNodeJs,
+  FaHtml5,
+  FaCss3Alt,
+  FaLaravel,
+  FaDatabase,
+  FaGolang,
+  FaStripe,
+  FaPaypal,
+  FaGithub,
+  FaLinkedin,
+  FaEnvelope,
+  FaPhone,
+} from "react-icons/fa6";
+import { SiJavascript, SiTailwindcss, SiMongodb, SiPostgresql, SiMysql, SiCodeigniter } from "react-icons/si";
+
+export const personalInfo = {
+  name: "Mahnoor Zulfiqar",
+  title: "Full-Stack Backend Developer",
+  tagline: "Building scalable web & enterprise systems with ~5 years of expertise",
+  bio: `Full-Stack Backend Developer with ~5 years of experience building scalable web and enterprise systems. Specialized in PHP, Laravel, and Golang with strong expertise in REST APIs, payment integrations, and performance optimization. Currently pursuing a Master's in Information Security.`,
+  email: "mahnoor.engineer@gmail.com",
+  phone: "+92 316 5420343",
+  linkedin: "https://linkedin.com/in/mahnoor-zulfiqar-dev",
+  github: "https://github.com/mahnoorzulfiqar",
+};
+
+export const experiences = [
+  {
+    role: "PHP Developer",
+    company: "Extravis",
+    location: "Islamabad (Hybrid)",
+    period: "May 2025 – Present",
+    highlights: [
+      "Leading backend development of MonetX, an enterprise-grade Network Management System (NMS) built on Zabbix, supporting 1,000+ monitored devices.",
+      "Developed core NMS modules including NCM, IPAM, and Network Traffic Analysis.",
+      "Designed custom widgets and reporting modules for real-time and historical data visualization.",
+      "Built and optimized RESTful APIs for device discovery, alerts, and performance analytics.",
+      "Improved monitoring accuracy (~30%) and reduced query execution time by up to 40%.",
+      "Collaborated with frontend and QA teams across 15+ feature releases.",
+    ],
+  },
+  {
+    role: "Web Developer (Laravel)",
+    company: "BitFoot",
+    location: "Malaysia (Remote)",
+    period: "Oct 2024 – June 2025",
+    highlights: [
+      "Developed backend services for AlMaghrib's learning and event management platform serving 10,000+ users.",
+      "Implemented scalable APIs for user registration, course enrollment, event booking, and payments.",
+      "Integrated Stripe and PayPal with secure webhook handling, reducing payment failures by ~25%.",
+      "Resolved production issues and improved system reliability.",
+    ],
+  },
+  {
+    role: "Senior Backend Engineer (PHP / Golang)",
+    company: "31Green",
+    location: "Islamabad",
+    period: "Nov 2023 – July 2024",
+    highlights: [
+      "Built backend services in Golang for a healthcare platform supporting staff and patient workflows.",
+      "Designed APIs for appointment scheduling, patient registration, and internal communication.",
+      "Improved API performance by ~35% through optimization and refactoring.",
+      "Participated in architecture discussions and code reviews.",
+    ],
+  },
+  {
+    role: "PHP Web Developer",
+    company: "Tangent Technologies",
+    location: "Islamabad",
+    period: "Apr 2022 – Nov 2023",
+    highlights: [
+      "Developed PHP-based web applications for multiple client projects.",
+      "Integrated third-party APIs and optimized application performance (20–30% faster load times).",
+      "Collaborated with designers and stakeholders to deliver production-ready solutions.",
+    ],
+  },
+  {
+    role: "PHP Developer",
+    company: "PkTeam",
+    location: "Rawalpindi",
+    period: "Dec 2020 – Mar 2022",
+    highlights: [
+      "Developed and maintained a custom ERP system (inventory, billing, reporting).",
+      "Automated business workflows, reducing manual effort by ~40%.",
+      "Handled testing, debugging, and long-term system maintenance.",
+    ],
+  },
+];
+
+export const education = [
+  {
+    degree: "Master's in Information Security",
+    institution: "Air University, Islamabad",
+    period: "Sep 2023 – July 2025",
+  },
+  {
+    degree: "Bachelor's in Software Engineering",
+    institution: "Foundation University, Islamabad",
+    period: "Sep 2016 – June 2020",
+  },
+];
+
+export const skillCategories = [
+  {
+    category: "Languages",
+    skills: [
+      { name: "PHP", icon: FaPhp },
+      { name: "Golang", icon: FaGolang },
+      { name: "JavaScript", icon: SiJavascript },
+      { name: "HTML5", icon: FaHtml5 },
+      { name: "CSS3", icon: FaCss3Alt },
+    ],
+  },
+  {
+    category: "Frameworks & Libraries",
+    skills: [
+      { name: "Laravel", icon: FaLaravel },
+      { name: "React", icon: FaReact },
+      { name: "Node.js", icon: FaNodeJs },
+      { name: "CodeIgniter", icon: SiCodeigniter },
+      { name: "Tailwind CSS", icon: SiTailwindcss },
+    ],
+  },
+  {
+    category: "Databases",
+    skills: [
+      { name: "MySQL", icon: SiMysql },
+      { name: "PostgreSQL", icon: SiPostgresql },
+      { name: "MongoDB", icon: SiMongodb },
+    ],
+  },
+  {
+    category: "Other",
+    skills: [
+      { name: "REST APIs", icon: FaDatabase },
+      { name: "Stripe", icon: FaStripe },
+      { name: "PayPal", icon: FaPaypal },
+    ],
+  },
+];
+
+export const projects = [
+  {
+    title: "MonetX",
+    description: "Enterprise Network Management System built on Zabbix supporting 1,000+ monitored devices with NCM, IPAM, and traffic analysis modules.",
+    tech: ["PHP", "Laravel", "Zabbix"],
+    link: "https://extravis.co/monetx",
+  },
+  {
+    title: "AlMaghrib Platform",
+    description: "Learning & event management system serving 10,000+ users with course enrollment, event booking, and payment integrations.",
+    tech: ["Laravel", "Stripe", "PayPal"],
+    link: "https://www.almaghrib.org",
+  },
+  {
+    title: "Bourne Health",
+    description: "Healthcare platform supporting staff and patient workflows with appointment scheduling and internal communication.",
+    tech: ["Golang", "REST APIs"],
+    link: "https://bournehealth.co.uk",
+  },
+  {
+    title: "My WowHealth",
+    description: "Health management system for tracking and managing health-related data and services.",
+    tech: ["PHP", "MySQL"],
+    link: "https://www.mywowhealth.com",
+  },
+  {
+    title: "Wow Health Pakistan",
+    description: "Regional health platform providing healthcare services and management for the Pakistani market.",
+    tech: ["PHP", "MySQL"],
+    link: "https://www.wowhealth.pk",
+  },
+  {
+    title: "Bazaroo",
+    description: "Full-featured e-commerce platform with product management, cart, checkout, and payment processing.",
+    tech: ["Laravel", "MySQL"],
+    link: "https://bazaroo.com",
+  },
+  {
+    title: "Gemwares ERP",
+    description: "Custom ERP system for inventory management, billing, and business reporting with automated workflows.",
+    tech: ["PHP", "MySQL"],
+    link: "https://gemwareserp.com",
+  },
+];
+
+export const socialLinks = [
+  { icon: FaEnvelope, href: "mailto:mahnoor.engineer@gmail.com", label: "Email" },
+  { icon: FaLinkedin, href: "https://linkedin.com/in/mahnoor-zulfiqar-dev", label: "LinkedIn" },
+  { icon: FaGithub, href: "https://github.com/mahnoorzulfiqar", label: "GitHub" },
+  { icon: FaPhone, href: "tel:+923165420343", label: "Phone" },
+];

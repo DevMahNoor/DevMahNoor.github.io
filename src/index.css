@@ -1,0 +1,50 @@
+:root {
+  --bg-primary: #0a0a0f;
+  --bg-secondary: #12121a;
+  --bg-card: #1a1a2e;
+  --bg-card-hover: #1f1f35;
+  --text-primary: #e4e4e7;
+  --text-secondary: #a1a1aa;
+  --text-muted: #71717a;
+  --accent: #a855f7;
+  --accent-light: #c084fc;
+  --accent-dark: #7c3aed;
+  --accent-glow: rgba(168, 85, 247, 0.15);
+  --accent-glow-strong: rgba(168, 85, 247, 0.3);
+  --border: #27272a;
+  --border-accent: rgba(168, 85, 247, 0.3);
+  --gradient: linear-gradient(135deg, var(--accent-dark), var(--accent));
+  --font-main: 'Inter', -apple-system, sans-serif;
+  --font-code: 'Fira Code', monospace;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --max-width: 1200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-main);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
