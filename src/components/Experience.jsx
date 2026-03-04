@@ -1,13 +1,19 @@
 import { experiences } from "../data/portfolioData";
 import { FaBriefcase } from "react-icons/fa6";
+import useScrollReveal from "../hooks/useScrollReveal";
 
 export default function Experience() {
+  const [titleRef, titleVisible] = useScrollReveal();
+  const [timelineRef, timelineVisible] = useScrollReveal({ threshold: 0.05 });
+
   return (
     <section className="section" id="experience">
-      <h2 className="section-title">Work Experience</h2>
-      <div className="timeline">
+      <h2 ref={titleRef} className={`section-title reveal ${titleVisible ? "visible" : ""}`}>
+        Work Experience
+      </h2>
+      <div ref={timelineRef} className={`timeline ${timelineVisible ? "visible" : ""}`}>
         {experiences.map((exp, i) => (
-          <div className="timeline-item" key={i}>
+          <div className={`timeline-item reveal ${timelineVisible ? "visible" : ""} stagger-${i + 1}`} key={i}>
             <div className="timeline-marker">
               <FaBriefcase />
             </div>
