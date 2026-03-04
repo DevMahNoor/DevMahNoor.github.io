@@ -32,7 +32,7 @@ export const personalInfo = {
 
 export const experiences = [
   {
-    role: "PHP Developer",
+    role: "Senior PHP Developer",
     company: "Extravis",
     location: "Islamabad (Hybrid)",
     period: "May 2025 – Present",
