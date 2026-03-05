@@ -22,7 +22,7 @@ export const personalInfo = {
   tagline: "Building scalable web & enterprise systems with ~5 years of expertise",
   bio: [
     `Results-driven Full-Stack Backend Developer with approximately 5 years of hands-on experience designing, building, and optimizing scalable web and enterprise systems. My core strengths lie in PHP, Laravel, and Golang, with deep expertise in architecting RESTful APIs, integrating payment gateways (Stripe, PayPal), and driving performance improvements that have cut query times by up to 40%.`,
-    `I've delivered production-grade solutions across healthcare, e-commerce, EdTech, and network management domains — from a Zabbix-based NMS monitoring 1,000+ devices to learning platforms serving 10,000+ users. Currently sharpening my edge with a Master's in Information Security, I bring a security-first mindset to every system I build.`,
+    `I've delivered production-grade solutions across healthcare, e-commerce, EdTech, and network management domains, from a Zabbix-based NMS monitoring 1,000+ devices to learning platforms serving 10,000+ users. Currently sharpening my edge with a Master's in Information Security, I bring a security-first mindset to every system I build.`,
   ],
   email: "mahnoor.engineer@gmail.com",
   phone: "+92 316 5420343",
